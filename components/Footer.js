@@ -178,8 +178,9 @@ export default function Footer() {
                 {error && <ErrorMessage>{error}</ErrorMessage>}
                 {success && (
                   <SuccessMessage>
-                    You've successfully subscribed to our store!
-                  </SuccessMessage>
+                  You&apos;ve successfully subscribed to our store!
+                </SuccessMessage>
+                
                 )}
               </li>
             </ul>

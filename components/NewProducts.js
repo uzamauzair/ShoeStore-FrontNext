@@ -13,9 +13,9 @@ export default function NewProducts({ products, wishedProducts }) {
     <Center>
       <Title>NEW ARRIVALS</Title>
       <ProductsGrid products={products} wishedProducts={wishedProducts} />
-      <Title>FEATURED MEN'S COLLECTION</Title>
+      <Title>FEATURED MEN&apos;S COLLECTION</Title>
       <ProductsGrid products={products} wishedProducts={wishedProducts} />
-      <Title>FEATURED WOMEN'S COLLECTION</Title>
+      <Title>FEATURED WOMEN&apos;S COLLECTION</Title>
       <ProductsGrid products={products} wishedProducts={wishedProducts} />
     </Center>
   );
